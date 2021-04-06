@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+
+background-color:black;
+font-family: Roboto;
+font-weight: bolder;
+
+}
+
+.publication{
+width:100vw;
+height: auto;
+position:sticky;
+top: 0;
+text-align: center;
+background-color: cornsilk;
+font-size: 80px;
+display: block;
+
+}
+
+div ul{
+
+  transition: cubic-bezier(1, 0, 0, 1) 0.5s;
+
+}
+
+
+div ul ul {
+
+    list-style-type: none ;
+
+}
+
+div ul li{
+
+    margin:10px;
+    padding: 5px;
+    
+}
+
+div ul li a{
+
+  color:honeydew;
+  text-decoration: none;
+  font-size: 35px;
+  opacity: 0.8;
+  
+  
+}
+
+div ul li a:hover{
+    opacity: 1;
+  }
+
+
+div ul ul li{
+    color:rgb(116, 109, 109);
+    font-size:20px;
+    margin-left: -30px;
+    
+}
+
+@media screen and (max-width:600px) {
+    div ul ul li{
+        
+        font-size:15px;
+        margin-left: -45px;
+    }
+    
+    div ul li a{
+
+        font-size: 28px;
+        opacity: 1;
+        
+      }
+      .publication{
+        font-size: 50px;
+      }
+
+
+
+}
+
+
